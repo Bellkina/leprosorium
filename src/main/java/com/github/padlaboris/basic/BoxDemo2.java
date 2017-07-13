@@ -1,13 +1,15 @@
 package com.github.padlaboris.basic;
+
 class Box1 {
     double weight;
     double height;
     double depth;
 }
+
 public class BoxDemo2 {
     public static void main(String args[]) {
-        Box mybox1 = new Box ();
-        Box mybox2 = new Box ();
+        Box mybox1 = new Box();
+        Box mybox2 = new Box();
         double vol;
         // assign values to mybox1's instance variables
         mybox1.width = 10;

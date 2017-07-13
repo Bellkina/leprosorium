@@ -5,10 +5,11 @@ public class Box {
     double height;
     double depth;
 }
+
 // This class declares an object of type Box.
 class BoxDemo {
     public static void main(String args[]) {
-        Box mybox = new Box ();
+        Box mybox = new Box();
         double vol;
         // assign values to mybox's instance variables
         mybox.width = 10;
