@@ -14,8 +14,8 @@ public class Box4 {
 
 class BoxDemo3 {
     public static void main(String args[]) {
-        Box mybox1 = new Box();
-        Box mybox2 = new Box();
+        Box4 mybox1 = new Box4();
+        Box4 mybox2 = new Box4();
         // assign values to mybox1's instance variables
         mybox1.width = 10;
         mybox1.height = 20;

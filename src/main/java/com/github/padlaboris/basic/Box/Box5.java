@@ -13,8 +13,8 @@ public class Box5 {
 
 class BoxDemo4 {
     public static void main(String args[]) {
-        Box mybox1 = new Box();
-        Box mybox2 = new Box();
+        Box5 mybox1 = new Box5();
+        Box5 mybox2 = new Box5();
         double vol;
         // assign values to mybox1's instance variables
         mybox1.width = 10;
