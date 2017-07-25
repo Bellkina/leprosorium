@@ -2,7 +2,7 @@ package com.github.padlaboris.basic.Varargs;
 
 public class VarArgs3 {
     static void vaTest(int... v) {
-        System.out.println("vaTest(int ... ): " + "Number of args: " + v.length + " Contents: ");
+        System.out.print("vaTest(int ... ): " + "Number of args: " + v.length + " Contents: ");
 
         for (int x : v)
             System.out.print(x + " ");
