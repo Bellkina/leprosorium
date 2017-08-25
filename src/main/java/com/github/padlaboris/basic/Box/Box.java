@@ -6,7 +6,7 @@ public class Box {
     double depth;
 }
 
-// This class declares an object of type Box.
+// This class declares an object of type BoxInheritance.
 class BoxDemo {
     public static void main(String args[]) {
         Box mybox = new Box();

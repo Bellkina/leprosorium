@@ -5,7 +5,7 @@ public class Box {
     double height;
     double depth;
 
-    // Notice this constructor. It takes an object of type Box.
+    // Notice this constructor. It takes an object of type BoxInheritance.
     Box(Box ob) { // pass object to constructor
         width = ob.width;
         height = ob.height;

@@ -5,9 +5,9 @@ public class Box {
     double height;
     double depth;
 
-    //This is the constructor for the Box.
+    //This is the constructor for the BoxInheritance.
     Box() {
-        System.out.println("Constructing Box");
+        System.out.println("Constructing BoxInheritance");
         width = 10;
         height = 10;
         depth = 10;
@@ -21,7 +21,7 @@ public class Box {
 
 class BoxDemo {
     public static void main(String args[]) {
-        // declare, allocate, and initializa Box objects
+        // declare, allocate, and initializa BoxInheritance objects
         Box mybox1 = new Box();
         Box mybox2 = new Box();
 
